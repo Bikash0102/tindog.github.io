@@ -33,6 +33,7 @@ h3{
 }
 p{
     font-family: 'Ubuntu', sans-serif;
+    color: #7e7070;
 }
 .container-fluids
 {
@@ -70,7 +71,7 @@ body{
 }
 #features
 {
-    padding:7% 15%;
+    padding: 7% 8%;
 }
 .feature
 {
@@ -100,8 +101,13 @@ p{
 {
   
     text-align: center;
-    background-color: #ef8172;
+    background-color:  #b72613;
     color:#ffff;
+}
+#fh
+{
+    font-size: 36px;
+    font-family:'Montserrat';
 }
 h2
 {
@@ -120,7 +126,7 @@ h2
 {
     padding:3%;
     text-align: center;
-    background-color: #ef8172;
+    background-color: #b72613;
 }
 .press-logo
 {
@@ -144,6 +150,7 @@ h2
 {
     padding:100px;
     text-align: center;
+    background-color: #92a8d1;
 }
 #pricing-colum
 {
@@ -151,12 +158,14 @@ h2
 }
 #buttons
 {
+    padding: 30px 40px;
     size: 100px;
+    height: 313px;
 }
 #cta
 {
 text-align: center;
-background-color: #921a2a;
+background-color: #034f84;
 color: #ffff;
 padding: 7% 15%;
 text-align: center;
@@ -183,6 +192,45 @@ text-align: center;
     color:#ffff;
 
 }
+#pricehead
+{
+    background-color: purple;
+}
+
+
+.pricebutton
+{
+    border: none;
+color: white;
+background-color: purple;
+cursor: pointer;
+padding: 14px 78px;
+display: inline-block;
+margin: 30px 30px;
+font-size: 18px;
+letter-spacing: 1px;
+font-weight: 632;
+text-transform: uppercase;
+ 
+  
+}
+.pricebutton3
+{
+    border: none;
+    color: white;
+    background-color: purple;
+    cursor: pointer;
+    padding: 14px 78px;
+    display: inline-block;
+    margin: -4px 30px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 632;
+    text-transform: uppercase;
+ 
+  
+}
+
     
 @media only screen and (max-width:1000px)
 {
